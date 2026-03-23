@@ -1,0 +1,138 @@
+@model MiniLenguajeLexico.Web.Models.BaulErroresViewModel
+@{
+    ViewData["Title"] = "Baul de errores";
+}
+
+<section class="reserved-shell">
+    <div class="analyzer-hero">
+        <div>
+            <h1>Baul de errores</h1>
+            <p class="hero-copy">
+                Administra el catalogo de errores del sistema. Puedes registrar nuevos errores y consultar los existentes.
+            </p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-5">
+            <div class="panel-card">
+                <div class="panel-card-header">
+                    <div>
+                        <h2>Nuevo error</h2>
+                        <p>Define un codigo unico, el nombre visible, su descripcion y el tipo de error.</p>
+                    </div>
+                </div>
+
+                <form asp-controller="BaulErrores" asp-action="Index" method="post" novalidate>
+                    <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="CodigoError" class="form-label"></label>
+                        <input asp-for="CodigoError" class="form-control" autocomplete="off" placeholder="Ejemplo: LEX010" />
+                        <span asp-validation-for="CodigoError" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="NombreError" class="form-label"></label>
+                        <input asp-for="NombreError" class="form-control" autocomplete="off" placeholder="Ejemplo: Numero invalido" />
+                        <span asp-validation-for="NombreError" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="TipoError" class="form-label"></label>
+                        <input asp-for="TipoError" class="form-control" autocomplete="off" placeholder="Ejemplo: Lexico" />
+                        <span asp-validation-for="TipoError" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="DescripcionError" class="form-label"></label>
+                        <textarea asp-for="DescripcionError" class="form-control" rows="4" placeholder="Describe cuando debe mostrarse este error."></textarea>
+                        <span asp-validation-for="DescripcionError" class="text-danger small"></span>
+                    </div>
+
+                    <div class="form-check form-switch mb-3">
+                        <input asp-for="Activo" class="form-check-input" />
+                        <label asp-for="Activo" class="form-check-label"></label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary analyze-button">Agregar error</button>
+                </form>
+
+                @if (!string.IsNullOrWhiteSpace(Model.MensajeExito))
+                {
+                    <div class="alert alert-success mt-3 mb-0" role="alert">
+                        @Model.MensajeExito
+                    </div>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.MensajeError))
+                {
+                    <div class="alert alert-danger mt-3 mb-0" role="alert">
+                        @Model.MensajeError
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-7">
+            <div class="panel-card">
+                <div class="panel-card-header">
+                    <div>
+                        <h2>Catalogo actual</h2>
+                        <p>@Model.Errores.Count error(es) disponible(s) en el baul.</p>
+                    </div>
+                </div>
+
+                @if (Model.Errores.Count == 0)
+                {
+                    <div class="empty-state">
+                        <h3>No hay errores registrados</h3>
+                        <p>Agrega un error nuevo para verlo listado aqui.</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-sm align-middle result-table">
+                            <thead>
+                                <tr>
+                                    <th>Codigo</th>
+                                    <th>Nombre</th>
+                                    <th>Tipo</th>
+                                    <th>Estado</th>
+                                    <th class="text-end">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var error in Model.Errores)
+                                {
+                                    <tr>
+                                        <td><code>@error.CodigoError</code></td>
+                                        <td>@error.NombreError</td>
+                                        <td>@error.TipoError</td>
+                                        <td>@(error.Activo ? "Activo" : "Inactivo")</td>
+                                        <td class="text-end">
+                                            <div class="d-inline-flex gap-2">
+                                                <a asp-controller="BaulErrores" asp-action="Editar" asp-route-id="@error.IdErrorCatalogo" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                                <form asp-controller="BaulErrores" asp-action="Eliminar" asp-route-id="@error.IdErrorCatalogo" method="post" class="d-inline">
+                                                    <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Deseas eliminar este error del catálogo?');">Eliminar</button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="5" class="text-muted small">@error.DescripcionError</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

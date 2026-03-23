@@ -1,0 +1,108 @@
+@model MiniLenguajeLexico.Web.Models.PalabrasReservadasViewModel
+@{
+    ViewData["Title"] = "Palabras reservadas";
+}
+
+<section class="reserved-shell">
+    <div class="analyzer-hero">
+        <div>
+            <h1>Palabras reservadas</h1>
+            <p class="hero-copy">
+                Agrega nuevas palabras y administra las existentes para que el analizador las reconozca en los proximos analisis.
+            </p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-5">
+            <div class="panel-card">
+                <div class="panel-card-header">
+                    <div>
+                        <h2>Nueva palabra reservada</h2>
+                        <p>Usa letras, numeros o guion bajo. Debe iniciar con letra o guion bajo.</p>
+                    </div>
+                </div>
+
+                <form asp-controller="PalabrasReservadas" asp-action="Index" method="post" novalidate>
+                    <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="NuevaPalabra" class="form-label"></label>
+                        <input asp-for="NuevaPalabra" class="form-control" autocomplete="off" placeholder="Ejemplo: switch" />
+                        <span asp-validation-for="NuevaPalabra" class="text-danger small"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary analyze-button">Agregar palabra</button>
+                </form>
+
+                @if (!string.IsNullOrWhiteSpace(Model.MensajeExito))
+                {
+                    <div class="alert alert-success mt-3 mb-0" role="alert">
+                        @Model.MensajeExito
+                    </div>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.MensajeError))
+                {
+                    <div class="alert alert-danger mt-3 mb-0" role="alert">
+                        @Model.MensajeError
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-7">
+            <div class="panel-card">
+                <div class="panel-card-header">
+                    <div>
+                        <h2>Listado actual</h2>
+                        <p>@Model.Palabras.Count palabra(s) registrada(s) para el analizador.</p>
+                    </div>
+                </div>
+
+                @if (Model.Palabras.Count == 0)
+                {
+                    <div class="empty-state">
+                        <h3>No hay palabras registradas</h3>
+                        <p>Agrega una nueva palabra reservada para verla listada aqui.</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-sm align-middle result-table">
+                            <thead>
+                                <tr>
+                                    <th>Palabra</th>
+                                    <th>Estado</th>
+                                    <th class="text-end">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var palabra in Model.Palabras)
+                                {
+                                    <tr>
+                                        <td><code>@palabra.Palabra</code></td>
+                                        <td>@(palabra.Activo ? "Activa" : "Inactiva")</td>
+                                        <td class="text-end">
+                                            <div class="d-inline-flex gap-2">
+                                                <a asp-controller="PalabrasReservadas" asp-action="Editar" asp-route-id="@palabra.IdPalabraReservada" class="btn btn-outline-secondary btn-sm">Editar</a>
+                                                <form asp-controller="PalabrasReservadas" asp-action="Eliminar" asp-route-id="@palabra.IdPalabraReservada" method="post" class="d-inline">
+                                                    <button type="submit" class="btn btn-outline-danger btn-sm" onclick="return confirm('¿Deseas eliminar esta palabra reservada?');">Eliminar</button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

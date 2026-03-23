@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MiniLenguajeLexico.Application",
+    "\\MiniLenguajeLexico.Domain",
+    "\\MiniLenguajeLexico.Tests",
+    "\\MiniLenguajeLexico.Web",
+    "\\MiniLenguajeLexico.Web\\Controllers"
+  ],
+  "SelectedNode": "\\MiniLenguajeLexico.Web\\Controllers\\PalabrasReservadasController.cs",
+  "PreviewInSolutionExplorer": false
+}

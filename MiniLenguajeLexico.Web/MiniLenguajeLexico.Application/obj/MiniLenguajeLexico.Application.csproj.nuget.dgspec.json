@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj",
+        "projectName": "MiniLenguajeLexico.Application",
+        "projectPath": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj",
+        "packagesPath": "C:\\Users\\DESARROLLO\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DESARROLLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj": {
+                "projectPath": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj",
+        "projectName": "MiniLenguajeLexico.Domain",
+        "projectPath": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj",
+        "packagesPath": "C:\\Users\\DESARROLLO\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DESARROLLO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

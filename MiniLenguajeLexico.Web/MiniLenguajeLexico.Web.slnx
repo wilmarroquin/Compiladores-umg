@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MiniLenguajeLexico.Application/MiniLenguajeLexico.Application.csproj" />
+  <Project Path="MiniLenguajeLexico.Domain/MiniLenguajeLexico.Domain.csproj" />
+  <Project Path="MiniLenguajeLexico.Infrastructure/MiniLenguajeLexico.Infrastructure.csproj" />
+  <Project Path="MiniLenguajeLexico.Tests/MiniLenguajeLexico.Tests.csproj" />
+  <Project Path="MiniLenguajeLexico.Web/MiniLenguajeLexico.Web.csproj" />
+</Solution>

@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Error";
+}
+
+<section class="reserved-shell">
+    <div class="analyzer-hero">
+        <div>
+            <h1>Error de aplicacion</h1>
+            <p class="hero-copy">
+                Ocurrio un problema inesperado mientras se procesaba la solicitud.
+            </p>
+        </div>
+    </div>
+
+    <div class="panel-card">
+        <div class="empty-state">
+            <div>
+                <h3>No se pudo completar la operacion</h3>
+                <p>Intenta nuevamente en unos minutos o regresa al analizador principal.</p>
+                <a asp-controller="Analizador" asp-action="Index" class="btn btn-primary analyze-button mt-3">Volver al analizador</a>
+            </div>
+        </div>
+    </div>
+</section>

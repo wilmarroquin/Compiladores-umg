@@ -1,0 +1,11 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery\dist\jquery.min.js

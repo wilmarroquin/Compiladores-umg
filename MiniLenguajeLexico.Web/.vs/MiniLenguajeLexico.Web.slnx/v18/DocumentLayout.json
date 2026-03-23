@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyecto\\MiniLenguajeLexico.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\constants\\baulerrorescatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\constants\\baulerrorescatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\services\\serviciobaulerrores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\services\\serviciobaulerrores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\services\\servicioanalizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\services\\servicioanalizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\services\\resultadomotorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\services\\resultadomotorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\services\\analizadorlexicomotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\services\\analizadorlexicomotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\services\\serviciodelimitadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\services\\serviciodelimitadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2714D7DF-3E7D-71AC-0243-5B31D0670BD9}|MiniLenguajeLexico.Infrastructure\\MiniLenguajeLexico.Infrastructure.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.infrastructure\\repositories\\repositorioconfiguracionlexicasql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2714D7DF-3E7D-71AC-0243-5B31D0670BD9}|MiniLenguajeLexico.Infrastructure\\MiniLenguajeLexico.Infrastructure.csproj|solutionrelative:minilenguajelexico.infrastructure\\repositories\\repositorioconfiguracionlexicasql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\constants\\palabrasreversadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\constants\\palabrasreversadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\constants\\catalogodelimitadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\constants\\catalogodelimitadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\dtos\\solicitudanalisisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\dtos\\solicitudanalisisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\dtos\\resultadoanalisisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\dtos\\resultadoanalisisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\dtos\\erroranalisisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\dtos\\erroranalisisdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\interfaces\\iservicioanalizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\interfaces\\iservicioanalizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\interfaces\\iserviciodelimitadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\interfaces\\iserviciodelimitadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\interfaces\\iserviciopalabrasreservadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\interfaces\\iserviciopalabrasreservadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\services\\serviciopalabrasreservadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\services\\serviciopalabrasreservadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\interfaces\\iserviciobaulerrores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\interfaces\\iserviciobaulerrores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\interfaces\\irepositorioconfiguracionlexica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\interfaces\\irepositorioconfiguracionlexica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.application\\interfaces\\irepositorioanalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA935E2E-D7A1-6A6F-0881-FB3085A25B2A}|MiniLenguajeLexico.Application\\MiniLenguajeLexico.Application.csproj|solutionrelative:minilenguajelexico.application\\interfaces\\irepositorioanalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\entities\\analisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\entities\\analisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\entities\\tokenanalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\entities\\tokenanalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\entities\\palabrareservadacatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\entities\\palabrareservadacatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\entities\\errorcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\entities\\errorcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\entities\\erroranalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\entities\\erroranalisis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|d:\\proyecto\\minilenguajelexico.web\\minilenguajelexico.domain\\entities\\delimitadorcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D083D88E-3741-5474-AFAD-30C5147FE165}|MiniLenguajeLexico.Domain\\MiniLenguajeLexico.Domain.csproj|solutionrelative:minilenguajelexico.domain\\entities\\delimitadorcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaulErroresCatalogo.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Constants\\BaulErroresCatalogo.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Constants\\BaulErroresCatalogo.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Constants\\BaulErroresCatalogo.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Constants\\BaulErroresCatalogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T04:15:18.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnalizadorLexicoMotor.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\AnalizadorLexicoMotor.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Services\\AnalizadorLexicoMotor.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\AnalizadorLexicoMotor.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Services\\AnalizadorLexicoMotor.cs",
+              "ViewState": "AgIAAGsCAAAAAAAAAAAmwH8CAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:56.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicioBaulErrores.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioBaulErrores.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Services\\ServicioBaulErrores.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioBaulErrores.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Services\\ServicioBaulErrores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:03:17.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServicioDelimitadores.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioDelimitadores.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Services\\ServicioDelimitadores.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioDelimitadores.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Services\\ServicioDelimitadores.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:03:23.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultadoMotorLexico.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ResultadoMotorLexico.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Services\\ResultadoMotorLexico.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ResultadoMotorLexico.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Services\\ResultadoMotorLexico.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:02:49.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServicioAnalizadorLexico.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioAnalizadorLexico.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Services\\ServicioAnalizadorLexico.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioAnalizadorLexico.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Services\\ServicioAnalizadorLexico.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:02:53.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepositorioConfiguracionLexicaSql.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Infrastructure\\Repositories\\RepositorioConfiguracionLexicaSql.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Infrastructure\\Repositories\\RepositorioConfiguracionLexicaSql.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Infrastructure\\Repositories\\RepositorioConfiguracionLexicaSql.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Infrastructure\\Repositories\\RepositorioConfiguracionLexicaSql.cs",
+              "ViewState": "AgIAAMkCAAAAAAAAAAAIwOUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:07:13.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PalabrasReversadas.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Constants\\PalabrasReversadas.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Constants\\PalabrasReversadas.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Constants\\PalabrasReversadas.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Constants\\PalabrasReversadas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:53.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CatalogoDelimitadores.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Constants\\CatalogoDelimitadores.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Constants\\CatalogoDelimitadores.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Constants\\CatalogoDelimitadores.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Constants\\CatalogoDelimitadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:48.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SolicitudAnalisisDto.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\DTOs\\SolicitudAnalisisDto.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\DTOs\\SolicitudAnalisisDto.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\DTOs\\SolicitudAnalisisDto.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\DTOs\\SolicitudAnalisisDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:31.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorAnalisisDto.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\DTOs\\ErrorAnalisisDto.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\DTOs\\ErrorAnalisisDto.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\DTOs\\ErrorAnalisisDto.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\DTOs\\ErrorAnalisisDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:25.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IServicioAnalizadorLexico.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioAnalizadorLexico.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Interfaces\\IServicioAnalizadorLexico.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioAnalizadorLexico.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Interfaces\\IServicioAnalizadorLexico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:45.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IServicioDelimitadores.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioDelimitadores.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Interfaces\\IServicioDelimitadores.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioDelimitadores.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Interfaces\\IServicioDelimitadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:48.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IServicioPalabrasReservadas.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioPalabrasReservadas.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Interfaces\\IServicioPalabrasReservadas.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioPalabrasReservadas.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Interfaces\\IServicioPalabrasReservadas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:49.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ResultadoAnalisisDto.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\DTOs\\ResultadoAnalisisDto.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\DTOs\\ResultadoAnalisisDto.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\DTOs\\ResultadoAnalisisDto.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\DTOs\\ResultadoAnalisisDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:27.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServicioPalabrasReservadas.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioPalabrasReservadas.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Services\\ServicioPalabrasReservadas.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Services\\ServicioPalabrasReservadas.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Services\\ServicioPalabrasReservadas.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:03:46.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IServicioBaulErrores.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioBaulErrores.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Interfaces\\IServicioBaulErrores.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IServicioBaulErrores.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Interfaces\\IServicioBaulErrores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:46.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRepositorioConfiguracionLexica.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IRepositorioConfiguracionLexica.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Interfaces\\IRepositorioConfiguracionLexica.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IRepositorioConfiguracionLexica.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Interfaces\\IRepositorioConfiguracionLexica.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:41.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRepositorioAnalisis.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IRepositorioAnalisis.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Application\\Interfaces\\IRepositorioAnalisis.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Application\\Interfaces\\IRepositorioAnalisis.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Application\\Interfaces\\IRepositorioAnalisis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T02:01:40.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TokenAnalisis.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\TokenAnalisis.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Entities\\TokenAnalisis.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\TokenAnalisis.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Entities\\TokenAnalisis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:33.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PalabraReservadaCatalogo.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\PalabraReservadaCatalogo.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Entities\\PalabraReservadaCatalogo.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\PalabraReservadaCatalogo.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Entities\\PalabraReservadaCatalogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:31.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Analisis.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\Analisis.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Entities\\Analisis.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\Analisis.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Entities\\Analisis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:13.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorCatalogo.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\ErrorCatalogo.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Entities\\ErrorCatalogo.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\ErrorCatalogo.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Entities\\ErrorCatalogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:29.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ErrorAnalisis.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\ErrorAnalisis.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Entities\\ErrorAnalisis.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\ErrorAnalisis.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Entities\\ErrorAnalisis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:24.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DelimitadorCatalogo.cs",
+              "DocumentMoniker": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\DelimitadorCatalogo.cs",
+              "RelativeDocumentMoniker": "MiniLenguajeLexico.Domain\\Entities\\DelimitadorCatalogo.cs",
+              "ToolTip": "D:\\Proyecto\\MiniLenguajeLexico.Web\\MiniLenguajeLexico.Domain\\Entities\\DelimitadorCatalogo.cs",
+              "RelativeToolTip": "MiniLenguajeLexico.Domain\\Entities\\DelimitadorCatalogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T01:56:22.231Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

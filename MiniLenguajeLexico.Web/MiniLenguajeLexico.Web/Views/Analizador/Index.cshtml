@@ -1,0 +1,165 @@
+@model MiniLenguajeLexico.Web.Models.AnalizadorViewModel
+@{
+    ViewData["Title"] = "Analizador lexico";
+    var resultado = Model.Resultado;
+    var tieneResultado = resultado is not null;
+    var estadoCss = resultado?.Errores.Count > 0 ? "text-bg-danger" : "text-bg-success";
+}
+
+<section class="analyzer-shell">
+    <div class="analyzer-hero">
+        <div>
+            <h1>Analiza lexico</h1>
+            <p class="hero-copy">
+                Procesa el codigo, ejecuta el analisis lexico y revisa el detalle de tokens y errores.
+            </p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-5">
+            <div class="panel-card">
+                <div class="panel-card-header">
+                    <div>
+                        <h2>Codigo fuente</h2>
+                        <p>Ingresa el codigo que deseas analizar. Se admiten identificadores, numeros, cadenas, comentarios, operadores, simbolos y constantes.</p>
+                    </div>
+                </div>
+
+                <form asp-controller="Analizador" asp-action="Index" method="post" novalidate>
+                    <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="CodigoFuente" class="form-label"></label>
+                        <textarea asp-for="CodigoFuente" class="form-control code-input" rows="18" spellcheck="false"
+                                  placeholder="Ejemplo:&#10;entero contador = 10;&#10;si (contador &gt;= 10) {&#10;    imprimir(&quot;Listo&quot;);&#10;}"></textarea>
+                        <span asp-validation-for="CodigoFuente" class="text-danger small"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary analyze-button">Analizar codigo</button>
+                </form>
+
+                @if (!string.IsNullOrWhiteSpace(Model.ErrorGeneral))
+                {
+                    <div class="alert alert-danger mt-3 mb-0" role="alert">
+                        @Model.ErrorGeneral
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="col-lg-7">
+            <div class="panel-card results-card">
+                <div class="panel-card-header results-header">
+                    <div>
+                        <h2>Resultado del analisis</h2>
+                        <p>Consulta el estado final y el desglose completo del procesamiento lexico.</p>
+                    </div>
+
+                    @if (tieneResultado)
+                    {
+                        <span class="badge rounded-pill @estadoCss">@resultado!.EstadoAnalisis</span>
+                    }
+                </div>
+
+                @if (!tieneResultado)
+                {
+                    <div class="empty-state">
+                        <h3>Aun no hay resultados</h3>
+                        <p>Cuando ejecutes un analisis aqui se mostraran los tokens reconocidos y cualquier error detectado.</p>
+                    </div>
+                }
+                else
+                {
+                    @if (!string.IsNullOrWhiteSpace(resultado!.Advertencia))
+                    {
+                        <div class="alert alert-warning" role="alert">
+                            @resultado.Advertencia
+                        </div>
+                    }
+
+                    <div class="table-section">
+                        <div class="table-section-header">
+                            <h3>Tokens</h3>
+                            <span>@resultado.Tokens.Count registrados</span>
+                        </div>
+
+                        @if (resultado.Tokens.Count == 0)
+                        {
+                            <p class="table-empty">No se reconocieron tokens en este analisis.</p>
+                        }
+                        else
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-sm align-middle result-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Lexema</th>
+                                            <th>Tipo</th>
+                                            <th>Linea</th>
+                                            <th>Columna</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var token in resultado.Tokens)
+                                        {
+                                            <tr>
+                                                <td><code>@token.Lexema</code></td>
+                                                <td>@token.TipoToken</td>
+                                                <td>@token.NumeroLinea</td>
+                                                <td>@token.NumeroColumna</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="table-section">
+                        <div class="table-section-header">
+                            <h3>Errores</h3>
+                            <span>@resultado.Errores.Count detectados</span>
+                        </div>
+
+                        @if (resultado.Errores.Count == 0)
+                        {
+                            <p class="table-empty">No se detectaron errores lexicos.</p>
+                        }
+                        else
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-sm align-middle result-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Mensaje</th>
+                                            <th>Lexema</th>
+                                            <th>Linea</th>
+                                            <th>Columna</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var error in resultado.Errores)
+                                        {
+                                            <tr>
+                                                <td>@error.MensajeError</td>
+                                                <td><code>@(string.IsNullOrWhiteSpace(error.Lexema) ? "-" : error.Lexema)</code></td>
+                                                <td>@error.NumeroLinea</td>
+                                                <td>@error.NumeroColumna</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

@@ -1,0 +1,87 @@
+@model MiniLenguajeLexico.Web.Models.EditarErrorCatalogoViewModel
+@{
+    ViewData["Title"] = "Editar error";
+}
+
+<section class="reserved-shell">
+    <div class="analyzer-hero">
+        <div>
+            <h1>Editar error</h1>
+            <p class="hero-copy">
+                Actualiza la informacion del error seleccionado sin perder su codigo, descripcion ni estado.
+            </p>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="panel-card">
+                <div class="panel-card-header">
+                    <div>
+                        <h2>Datos del error</h2>
+                        <p>Modifica los campos necesarios y guarda los cambios.</p>
+                    </div>
+                </div>
+
+                <form asp-controller="BaulErrores" asp-action="Editar" asp-route-id="@Model.IdErrorCatalogo" method="post" novalidate>
+                    <input asp-for="IdErrorCatalogo" type="hidden" />
+                    <div asp-validation-summary="ModelOnly" class="text-danger small mb-3"></div>
+
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label asp-for="CodigoError" class="form-label"></label>
+                            <input asp-for="CodigoError" class="form-control" autocomplete="off" />
+                            <span asp-validation-for="CodigoError" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-8">
+                            <label asp-for="NombreError" class="form-label"></label>
+                            <input asp-for="NombreError" class="form-control" autocomplete="off" />
+                            <span asp-validation-for="NombreError" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label asp-for="TipoError" class="form-label"></label>
+                            <input asp-for="TipoError" class="form-control" autocomplete="off" />
+                            <span asp-validation-for="TipoError" class="text-danger small"></span>
+                        </div>
+
+                        <div class="col-md-8">
+                            <label asp-for="DescripcionError" class="form-label"></label>
+                            <textarea asp-for="DescripcionError" class="form-control" rows="4"></textarea>
+                            <span asp-validation-for="DescripcionError" class="text-danger small"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-check form-switch my-3">
+                        <input asp-for="Activo" class="form-check-input" />
+                        <label asp-for="Activo" class="form-check-label"></label>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary analyze-button">Guardar cambios</button>
+                        <a asp-controller="BaulErrores" asp-action="Index" class="btn btn-outline-secondary">Volver al baul</a>
+                    </div>
+                </form>
+
+                @if (!string.IsNullOrWhiteSpace(Model.MensajeExito))
+                {
+                    <div class="alert alert-success mt-3 mb-0" role="alert">
+                        @Model.MensajeExito
+                    </div>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(Model.MensajeError))
+                {
+                    <div class="alert alert-danger mt-3 mb-0" role="alert">
+                        @Model.MensajeError
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

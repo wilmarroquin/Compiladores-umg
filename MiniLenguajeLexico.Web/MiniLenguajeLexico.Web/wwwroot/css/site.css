@@ -1,0 +1,205 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(17, 94, 89, 0.14), transparent 35%),
+    linear-gradient(180deg, #f4efe7 0%, #fbfaf7 55%, #f2f5f3 100%);
+  color: #1f2933;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 60px;
+}
+
+.app-navbar {
+  background: rgba(255, 251, 245, 0.92);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.analyzer-shell {
+  padding-bottom: 2rem;
+}
+
+.reserved-shell {
+  padding-bottom: 2rem;
+}
+
+.analyzer-hero {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: end;
+  margin-bottom: 1.75rem;
+}
+
+.analyzer-hero h1 {
+  font-size: clamp(2.2rem, 3vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 0.9rem;
+  max-width: 12ch;
+}
+
+.hero-copy {
+  color: #52606d;
+  font-size: 1.05rem;
+  margin: 0;
+  max-width: 62ch;
+}
+
+.panel-card {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1.25rem;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.panel-card-header {
+  margin-bottom: 1.25rem;
+}
+
+.panel-card-header h2,
+.table-section-header h3,
+.empty-state h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.panel-card-header p,
+.empty-state p,
+.table-empty,
+.table-section-header span {
+  color: #52606d;
+  margin-bottom: 0;
+}
+
+.code-input {
+  background: #101a24;
+  border: 1px solid #0f2c3f;
+  border-radius: 1rem;
+  color: #f8fafc;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  min-height: 24rem;
+}
+
+.code-input:focus {
+  background: #101a24;
+  color: #f8fafc;
+}
+
+.analyze-button {
+  background: linear-gradient(135deg, #c2410c, #ea580c);
+  border: none;
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 0.8rem 1.3rem;
+}
+
+.results-header {
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.empty-state {
+  align-items: center;
+  border: 1px dashed rgba(15, 23, 42, 0.15);
+  border-radius: 1rem;
+  display: grid;
+  min-height: 24rem;
+  padding: 2rem;
+  place-items: center;
+  text-align: center;
+}
+
+
+.table-section + .table-section {
+  margin-top: 1.5rem;
+}
+
+.table-section-header {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.result-table {
+  margin-bottom: 0;
+}
+
+.result-table thead th {
+  border-bottom-width: 1px;
+  color: #52606d;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.result-table code {
+  color: #9a3412;
+  font-size: 0.9rem;
+}
+
+.reserved-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.reserved-chip {
+  background: #f8fafc;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 999px;
+  color: #0f172a;
+  display: inline-flex;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.95rem;
+  padding: 0.55rem 0.9rem;
+}
+
+.footer {
+  background: transparent;
+}
+
+@media (max-width: 767.98px) {
+  .panel-card {
+    padding: 1.1rem;
+  }
+
+  .analyzer-hero h1 {
+    max-width: none;
+  }
+
+  .code-input,
+  .empty-state {
+    min-height: 18rem;
+  }
+}
+
